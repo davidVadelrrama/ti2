@@ -1,0 +1,92 @@
+package model;
+
+public class Veterinary{
+
+	private String id;
+	private String nameVet;
+	private String lastName;
+	private String vetRegister;
+
+
+	public Veterinary(){
+		
+	}
+
+
+
+	//constructors
+
+	/**
+	*Constructor method to creates an object named Veterinary
+	*@param id      type String
+	*@param nameVet     type String
+	*@param lastName     type String 
+	*@param vetRegister   type String
+	*/
+	public Veterinay(String id, String nameVet, String lastName, String vetRegister){
+		this.id = id;
+		this.nameVet = nameVet;
+		this.lastName = lastName;
+		this.vetRegister = vetRegister;
+
+	}
+
+	//getters
+
+	public String id(){
+		return id;
+	}
+	public String name(){
+		return nameVet;
+	}
+	public String lastName(){
+		return lastName;
+	}
+	public String vetRegister(){
+		return vetRegister;
+	}
+
+
+	//setters
+
+	/**
+	*Change id of the vet
+	*Change id that is saved in the variable
+	*@param id type String
+	*/
+
+	public void setId(String id){
+		this.id = id;
+	}
+
+	/**
+	*Change name of the vet
+	*Change name is saved in the variable
+	*@param name type String
+	*/
+
+	public void setNamevet(String nameVet){
+		this.nameVet = nameVet;
+	}
+
+	/**
+	*Change lastName of the vet
+	*Change lastName is saved in the variable
+	*@param lastName type String
+	*/
+
+	public void setLastname(String lastName){
+		this.lastName = lastName;
+	}
+
+	/**
+	*Change vetRegister in the vet
+	*Change vetRegister is saved in the variable
+	*@param vetRegister type String
+	*/
+
+	public void setVetRegister(String vetRegister){
+		this.vetRegister = vetRegister;
+	}
+
+}
